@@ -313,3 +313,36 @@ footer {
     }
 
 }
+
+/*Final Project CSS*/
+#search-form {
+    margin-left: 6px;
+}
+
+.recipe-item h2 {
+    font-size: 1.1rem;
+}
+
+#recipe-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.recipe-item {
+    border: 2px solid #908f8f;
+    margin: 10px 6px;
+    padding: 10px;
+    width: 24%;
+}
+
+.recipe-item img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+    border: 1px solid #908f8f;
+    border-radius: 0% 17% 0% 17% / 10% 17% 10% 17%;
+    box-shadow: 4px 4px 28px -10px rgba(0,0,0,0.75);
+}
